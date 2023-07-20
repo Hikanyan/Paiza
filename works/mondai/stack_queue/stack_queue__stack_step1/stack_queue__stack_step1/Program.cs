@@ -22,8 +22,7 @@ class Program
             //命令の種類が 1 の場合は、スタックに X を積む命令です。
             if (type == 1)
             {
-                int X = int.Parse(query[1]);
-                a.Add(X);
+                a.Add(int.Parse(query[1]));
             }
             //命令の種類が 2 の場合は、スタックから要素を 1 つ取り出す命令です。
             else if (type == 2)
