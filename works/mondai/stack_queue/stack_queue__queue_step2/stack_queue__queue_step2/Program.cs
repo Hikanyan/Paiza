@@ -16,13 +16,16 @@ class Program
             
             if (queryType == 1)
             {
-                Console.WriteLine();
                 a.Enqueue(query[1]);
             }
             else if (queryType == 2)
             {
-                a.Dequeue();
+                if (a.Count > 0)
+                {
+                    Console.WriteLine(string.Join(" ", a.Dequeue()));
+                }
             }
+            Console.WriteLine(string.Join(" ", a));
         }
     }
 }
