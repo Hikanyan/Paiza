@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array_utilization_primer__reverse", "array_utilization_primer__reverse\array_utilization_primer__reverse.csproj", "{325F472D-4C2E-4308-A088-B0B7279791AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{325F472D-4C2E-4308-A088-B0B7279791AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325F472D-4C2E-4308-A088-B0B7279791AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325F472D-4C2E-4308-A088-B0B7279791AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325F472D-4C2E-4308-A088-B0B7279791AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
