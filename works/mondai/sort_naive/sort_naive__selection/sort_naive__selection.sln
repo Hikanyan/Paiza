@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sort_naive__selection", "sort_naive__selection\sort_naive__selection.csproj", "{97C6E764-8631-4326-8C49-5C05067E6754}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97C6E764-8631-4326-8C49-5C05067E6754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C6E764-8631-4326-8C49-5C05067E6754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C6E764-8631-4326-8C49-5C05067E6754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C6E764-8631-4326-8C49-5C05067E6754}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
