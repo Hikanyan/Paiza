@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "graph_dfs__path_one_step1", "graph_dfs__path_one_step1\graph_dfs__path_one_step1.csproj", "{6E5B704A-ACAD-4B78-A27F-FFA37CF61749}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "graph_dfs__path_one_step1", "graph_dfs__path_one_step1\graph_dfs__path_one_step1.csproj", "{C215C0A8-14F2-49DE-B871-84D42939FEF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6E5B704A-ACAD-4B78-A27F-FFA37CF61749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E5B704A-ACAD-4B78-A27F-FFA37CF61749}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E5B704A-ACAD-4B78-A27F-FFA37CF61749}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E5B704A-ACAD-4B78-A27F-FFA37CF61749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C215C0A8-14F2-49DE-B871-84D42939FEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C215C0A8-14F2-49DE-B871-84D42939FEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C215C0A8-14F2-49DE-B871-84D42939FEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C215C0A8-14F2-49DE-B871-84D42939FEF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
