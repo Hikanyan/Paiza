@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "graph_dfs__path_one_step2", "graph_dfs__path_one_step2\graph_dfs__path_one_step2.csproj", "{383BECB7-B301-4708-B62E-BD5E1B3FD66A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{383BECB7-B301-4708-B62E-BD5E1B3FD66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383BECB7-B301-4708-B62E-BD5E1B3FD66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383BECB7-B301-4708-B62E-BD5E1B3FD66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383BECB7-B301-4708-B62E-BD5E1B3FD66A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
