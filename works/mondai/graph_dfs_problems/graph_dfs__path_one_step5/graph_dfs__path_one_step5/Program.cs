@@ -18,9 +18,9 @@ class Program
         s = input[1];
         t = input[2];
         p = input[3];
-        
-;
-        for (int i = 1; i <= n; i++)
+
+
+        for (int i = 0; i < n; i++)
         {
             Console.ReadLine();
             var newList = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
@@ -40,7 +40,7 @@ class Program
     static void DFS(int v, List<int> path)
     {
         //現在の頂点から行ける頂点を全て探索する
-        foreach (int next in adList[v-1])
+        foreach (int next in adList[v - 1])
         {
             //もし、現在の頂点に行ったことがなければ、その頂点に行く
             if (!path.Contains(next))
@@ -60,11 +60,10 @@ class Program
                 {
                     DFS(next, path);
                 }
+                //現在の経路から頂点を削除する
+                path.RemoveAt(path.Count - 1);
             }
-
         }
 
-        //現在の経路から頂点を削除する
-        path.RemoveAt(path.Count - 1);
     }
 }
