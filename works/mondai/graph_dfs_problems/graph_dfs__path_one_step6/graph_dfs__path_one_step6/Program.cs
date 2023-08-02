@@ -1,74 +1,76 @@
 ﻿// https://paiza.jp/works/mondai/graph_dfs_problems/graph_dfs__path_one_step6
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
-class Program
+
+class MainClass
 {
-    static int n, s, t;
-    static int[] k;
-    static Dictionary<int, List<int>> adList;
-    static List<int> minPath = null;
-
-    static void Main(string[] args)
+    static void Main()
     {
-        int[] input = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-        n = input[0]; //頂点数
-        s = input[1]; //始点
-        t = input[2]; //終点
-
-
+        int[] inputs = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+        int n = inputs[0];
+        int s = inputs[1];
+        int t = inputs[2];
         Console.ReadLine();
-        k = Array.ConvertAll(Console.ReadLine().Split(), int.Parse); //除外する頂点
 
+        HashSet<int> hashSet = new HashSet<int>(Console.ReadLine().Split().Select(int.Parse));
 
-        adList = new Dictionary<int, List<int>>();
+        List<List<int>> adList = new List<List<int>>();
+        for (int i = 0; i <= n; i++)
+        {
+            adList.Add(new List<int>());
+        }
+
         for (int i = 1; i <= n; i++)
         {
             Console.ReadLine();
-            adList[i] = new List<int>();
-            int[] adInput = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-            foreach (int ad in adInput)
+            adList[i] = Console.ReadLine().Split().Select(int.Parse).ToList();
+        }
+
+        for (int i = 1; i <= n; i++)
+        {
+            if (hashSet.Contains(i))
             {
-                if (!k.Contains(ad))
-                    adList[i].Add(ad);
+                foreach (int j in adList[i].ToList())
+                {
+                    adList[j].Remove(i);
+                }
+                adList[i].Clear();
             }
         }
-        
-        DFS(s, new List<int> { s });
 
-        Console.WriteLine(string.Join(" ", minPath));
+        List<int> minPath = Enumerable.Range(1, n + 1).ToList();
+        Dfs(s, new List<int> { s }, adList, t, ref minPath);
+
+        if (minPath.Count == n + 1)
+        {
+            Console.WriteLine(-1);
+        }
+        else
+        {
+            Console.WriteLine(string.Join(" ", minPath));
+        }
     }
 
-    //深さ優先探索
-    //v:現在の頂点
-    //path:現在の経路
-    static void DFS(int v, List<int> path)
+    static void Dfs(int v, List<int> path, List<List<int>> adList, int target, ref List<int> minPath)
     {
-        //現在の頂点から行ける頂点を全て探索する
-        foreach (int next in adList[v - 1])
+        if (path.Count < minPath.Count)
         {
-            //もし、現在の頂点に行ったことがなければ、その頂点に行く
-            if (!path.Contains(next))
+            foreach (int i in adList[v])
             {
-                //現在の経路に頂点を追加する
-                path.Add(next);
-                if (next == t)
+                if (!path.Contains(i))
                 {
-                    if ((minPath == null || path.Count < minPath.Count))
+                    path.Add(i);
+                    if (i == target)
                     {
                         minPath = new List<int>(path);
                     }
+                    else
+                    {
+                        Dfs(i, path, adList, target, ref minPath);
+                    }
+                    path.RemoveAt(path.Count - 1);
                 }
-
-                //そうでなければ、その頂点から探索を続ける
-                else
-                {
-                    DFS(next, path);
-                }
-
-                //現在の経路から頂点を削除する
-                path.RemoveAt(path.Count - 1);
             }
         }
     }
