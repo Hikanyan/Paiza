@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\graph_dfs_problems\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1.csproj": {}
+    "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\forest_contest_008\\forest_contest_008__word_count\\forest_contest_008__word_count\\forest_contest_008__word_count.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\graph_dfs_problems\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1.csproj": {
+    "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\forest_contest_008\\forest_contest_008__word_count\\forest_contest_008__word_count\\forest_contest_008__word_count.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\graph_dfs_problems\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1.csproj",
-        "projectName": "graph_dfs__path_one_step1",
-        "projectPath": "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\graph_dfs_problems\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1.csproj",
+        "projectUniqueName": "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\forest_contest_008\\forest_contest_008__word_count\\forest_contest_008__word_count\\forest_contest_008__word_count.csproj",
+        "projectName": "forest_contest_008__word_count",
+        "projectPath": "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\forest_contest_008\\forest_contest_008__word_count\\forest_contest_008__word_count\\forest_contest_008__word_count.csproj",
         "packagesPath": "C:\\Users\\hikan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\graph_dfs_problems\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1\\obj\\",
+        "outputPath": "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\forest_contest_008\\forest_contest_008__word_count\\forest_contest_008__word_count\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

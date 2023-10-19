@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bfs_dfs_problems__route_between_two_vertex", "bfs_dfs_problems__route_between_two_vertex\bfs_dfs_problems__route_between_two_vertex.csproj", "{556416E1-607B-4FD9-BAA5-E379853D4CED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{556416E1-607B-4FD9-BAA5-E379853D4CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556416E1-607B-4FD9-BAA5-E379853D4CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556416E1-607B-4FD9-BAA5-E379853D4CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556416E1-607B-4FD9-BAA5-E379853D4CED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

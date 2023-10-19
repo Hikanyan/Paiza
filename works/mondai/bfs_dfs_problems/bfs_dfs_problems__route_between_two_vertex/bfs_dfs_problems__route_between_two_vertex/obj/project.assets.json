@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\graph_dfs_problems\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1.csproj",
-      "projectName": "graph_dfs__path_one_step1",
-      "projectPath": "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\graph_dfs_problems\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1.csproj",
+      "projectUniqueName": "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\bfs_dfs_problems\\bfs_dfs_problems__route_between_two_vertex\\bfs_dfs_problems__route_between_two_vertex\\bfs_dfs_problems__route_between_two_vertex.csproj",
+      "projectName": "bfs_dfs_problems__route_between_two_vertex",
+      "projectPath": "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\bfs_dfs_problems\\bfs_dfs_problems__route_between_two_vertex\\bfs_dfs_problems__route_between_two_vertex\\bfs_dfs_problems__route_between_two_vertex.csproj",
       "packagesPath": "C:\\Users\\hikan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\graph_dfs_problems\\graph_dfs__path_one_step1\\graph_dfs__path_one_step1\\obj\\",
+      "outputPath": "C:\\Users\\hikan\\Maine\\Paiza\\works\\mondai\\bfs_dfs_problems\\bfs_dfs_problems__route_between_two_vertex\\bfs_dfs_problems__route_between_two_vertex\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
