@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "a_rank_snake_map_step4", "a_rank_snake_map_step4\a_rank_snake_map_step4.csproj", "{BCD012D1-4534-4958-B744-B4B102A3882C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCD012D1-4534-4958-B744-B4B102A3882C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD012D1-4534-4958-B744-B4B102A3882C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD012D1-4534-4958-B744-B4B102A3882C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD012D1-4534-4958-B744-B4B102A3882C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
