@@ -1,6 +1,9 @@
 ﻿using System;
 class Program
 {
+    /// <summary>
+    /// アイスチェーン
+    /// </summary>
     static void Main()
     {
         // 盤面の行数、列数、座標の数を読み込む
@@ -9,12 +12,14 @@ class Program
         int w = int.Parse(dimensions[1]);
         int n = int.Parse(dimensions[2]);
         
+        
         // 盤面を2次元配列として読み込む
         char[][] board = new char[h][];
         for (int i = 0; i < h; i++)
         {
             board[i] = Console.ReadLine().ToCharArray();
         }
+        
 
         // 座標の数だけループ
         for (int i = 0; i < n; i++)
