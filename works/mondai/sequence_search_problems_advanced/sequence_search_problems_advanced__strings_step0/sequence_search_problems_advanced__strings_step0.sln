@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sequence_search_problems_advanced__strings_step0", "sequence_search_problems_advanced__strings_step0\sequence_search_problems_advanced__strings_step0.csproj", "{DCA7E35B-6C7C-4F5A-BCE5-B21A67FDAC8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCA7E35B-6C7C-4F5A-BCE5-B21A67FDAC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA7E35B-6C7C-4F5A-BCE5-B21A67FDAC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA7E35B-6C7C-4F5A-BCE5-B21A67FDAC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA7E35B-6C7C-4F5A-BCE5-B21A67FDAC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

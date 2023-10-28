@@ -2,7 +2,7 @@
 
 public class Program
 {
-    static int moveX, moveY;
+    static int moveX, moveY;// 移動量
     static int currentDirectionIndex = 0; // 北を向いて開始
     static char[] directions = { 'N', 'E', 'S', 'W' };
 
