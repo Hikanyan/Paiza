@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bfs_dfs_problems__number_of_area", "bfs_dfs_problems__number_of_area\bfs_dfs_problems__number_of_area.csproj", "{BDC60E7B-4751-4FBF-80D8-DD0548F1B430}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDC60E7B-4751-4FBF-80D8-DD0548F1B430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC60E7B-4751-4FBF-80D8-DD0548F1B430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC60E7B-4751-4FBF-80D8-DD0548F1B430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC60E7B-4751-4FBF-80D8-DD0548F1B430}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
