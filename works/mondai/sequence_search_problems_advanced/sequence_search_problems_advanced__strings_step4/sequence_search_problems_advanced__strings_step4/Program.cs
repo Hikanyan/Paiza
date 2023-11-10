@@ -11,11 +11,16 @@ class Program
         for (var i = 0; i < n; i++)
         {
             var line = Console.ReadLine().Split(',');
-            var a = int.Parse(line[0]);
-            var b = int.Parse(line[1]);
-            if (b >= x)
+            // var a = int.Parse(line[0]);
+            // var b = int.Parse(line[1]);
+            // if (b >= x)
+            // {
+            //     Console.WriteLine($"{a},{b}");
+            // }
+
+            if (int.Parse(line[1]) >= x)
             {
-                Console.WriteLine($"{a},{b}");
+                Console.WriteLine(line[0] + "," + line[1]);
             }
         }
     }
