@@ -7,13 +7,13 @@ class Program
         var line = Console.ReadLine().Split(' ');
         var h = int.Parse(line[0]);
         var w = int.Parse(line[1]);
-        var s = new string[h];
-        for (int i = 0; i < h; i++)
+        var s = new string[h];//盤面
+        for (int i = 0; i < h; i++)//盤面の入力
         {
             s[i] = Console.ReadLine();
         }
 
-        var t = new char[h, w];
+        var t = new char[h, w];//結果の盤面
 
         // 入力された盤面をコピー
         for (int i = 0; i < h; i++)
