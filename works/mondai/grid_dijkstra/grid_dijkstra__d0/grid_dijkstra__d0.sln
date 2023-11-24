@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grid_dijkstra__d0", "grid_dijkstra__d0\grid_dijkstra__d0.csproj", "{1D500D78-2BF0-4B94-88A6-5319B5AE3A0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D500D78-2BF0-4B94-88A6-5319B5AE3A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D500D78-2BF0-4B94-88A6-5319B5AE3A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D500D78-2BF0-4B94-88A6-5319B5AE3A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D500D78-2BF0-4B94-88A6-5319B5AE3A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
