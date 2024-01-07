@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "topological_sort_problems__directed_graph_input", "topological_sort_problems__directed_graph_input\topological_sort_problems__directed_graph_input.csproj", "{05892297-1712-4096-9363-E11D4430989F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05892297-1712-4096-9363-E11D4430989F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05892297-1712-4096-9363-E11D4430989F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05892297-1712-4096-9363-E11D4430989F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05892297-1712-4096-9363-E11D4430989F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
