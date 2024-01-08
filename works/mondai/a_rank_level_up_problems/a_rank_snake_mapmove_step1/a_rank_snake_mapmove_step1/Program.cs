@@ -5,14 +5,23 @@ class Program
     private static readonly char[] Directions = { 'N', 'E', 'S', 'W' }; // 移動方向
     private static int _moveX, _moveY; // 移動量
 
+    //Playerの移動方向
     private static void MoveCharacter(char moveDirection)
     {
         switch (moveDirection)
         {
-            case 'N': _moveY--; break;
-            case 'S': _moveY++; break;
-            case 'E': _moveX++; break;
-            case 'W': _moveX--; break;
+            case 'N':
+                _moveY--;
+                break;
+            case 'S':
+                _moveY++;
+                break;
+            case 'E':
+                _moveX++;
+                break;
+            case 'W':
+                _moveX--;
+                break;
         }
     }
 
@@ -35,6 +44,7 @@ class Program
 
         Console.WriteLine(IsMovePossible(h, w, sy, sx, map, moveDirection) ? "Yes" : "No");
     }
+
 
     private static bool IsMovePossible(int h, int w, int sy, int sx, string[] map, char moveDirection)
     {
